@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Muchikub">
+  <defs>
+    <linearGradient id="felt" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#227f49"/>
+      <stop offset="1" stop-color="#0f4f2c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#062416" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#felt)"/>
+  <g filter="url(#shadow)">
+    <rect x="11" y="15" width="18" height="24" rx="4" fill="#f8f4e8"/>
+    <rect x="35" y="15" width="18" height="24" rx="4" fill="#f8f4e8"/>
+    <rect x="23" y="25" width="18" height="24" rx="4" fill="#fffaf0"/>
+  </g>
+  <path d="M18 33V22h4l3 5 3-5h4v11h-4v-5l-3 5-3-5v5h-4Z" fill="#d02f2f"/>
+  <path d="M39 33V22h4l3 5 3-5h4v11h-4v-5l-3 5-3-5v5h-4Z" fill="#1f61c9"/>
+  <path d="M26 43V32h4l3 5 3-5h4v11h-4v-5l-3 5-3-5v5h-4Z" fill="#161616"/>
+</svg>
