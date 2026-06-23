@@ -22,6 +22,7 @@ function runTests() {
   assert.strictEqual(isValidMeld([tile(1, 13, 'red'), joker(2), tile(3, 13, 'blue')]), true);
   assert.strictEqual(initialMeldValue([], [[tile(1, 13, 'red'), joker(2), tile(3, 13, 'blue')]], hand, [1, 2, 3]), 39);
   assert.ok(initialMeldValue([], [[tile(1, 13, 'red'), joker(2), tile(3, 13, 'blue')]], hand, [1, 2, 3]) >= 30);
+  assert.strictEqual(initialMeldValue([], [[tile(1, 13, 'red'), tile(3, 13, 'blue'), tile(7, 13, 'black'), joker(2)]], hand, [1, 3, 7, 2]), 52);
 
   assert.strictEqual(isValidMeld([tile(1, 13, 'red'), tile(7, 13, 'red'), tile(3, 13, 'blue')]), false);
   assert.strictEqual(isValidMeld([tile(4, 9, 'black'), joker(2), tile(6, 11, 'black')]), true);

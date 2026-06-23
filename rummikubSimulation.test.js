@@ -68,7 +68,7 @@ function findValidMelds(hand, maxSize = 5) {
 }
 
 function openingValue(meld) {
-  return initialMeldValue([], [meld], meld, meld.map(tile => tile.id), { countJokers: false });
+  return initialMeldValue([], [meld], meld, meld.map(tile => tile.id));
 }
 
 function assertTileConservation(game) {
